@@ -1,0 +1,8 @@
+<additional>
+    <poi id="RSU0" type="RSU_district" color="0,200,0" layer="10" x="200.00" y="200.00" width="12" height="12"/>
+    <poi id="RSU1" type="RSU_district" color="0,200,0" layer="10" x="400.00" y="100.00" width="12" height="12"/>
+    <poi id="RSU2" type="RSU_bridge" color="0,200,0" layer="10" x="600.00" y="200.00" width="12" height="12"/>
+    <poi id="RSU3" type="RSU_district" color="0,200,0" layer="10" x="800.00" y="300.00" width="12" height="12"/>
+    <poi id="RSU4" type="RSU_district" color="0,200,0" layer="10" x="1000.00" y="200.00" width="12" height="12"/>
+    <poi id="UAV_HOME" type="UAV" color="0,0,255" layer="10" x="200.00" y="300.00" width="12" height="12"/>
+</additional>

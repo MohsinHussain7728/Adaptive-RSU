@@ -1,0 +1,20 @@
+<nodes>
+    <node id="W0_0" x="0.00" y="0.00" type="priority"/>
+    <node id="W0_1" x="0.00" y="200.00" type="priority"/>
+    <node id="W0_2" x="0.00" y="400.00" type="priority"/>
+    <node id="W1_0" x="200.00" y="0.00" type="priority"/>
+    <node id="W1_1" x="200.00" y="200.00" type="priority"/>
+    <node id="W1_2" x="200.00" y="400.00" type="priority"/>
+    <node id="W2_0" x="400.00" y="0.00" type="priority"/>
+    <node id="W2_1" x="400.00" y="200.00" type="priority"/>
+    <node id="W2_2" x="400.00" y="400.00" type="priority"/>
+    <node id="E0_0" x="800.00" y="0.00" type="priority"/>
+    <node id="E0_1" x="800.00" y="200.00" type="priority"/>
+    <node id="E0_2" x="800.00" y="400.00" type="priority"/>
+    <node id="E1_0" x="1000.00" y="0.00" type="priority"/>
+    <node id="E1_1" x="1000.00" y="200.00" type="priority"/>
+    <node id="E1_2" x="1000.00" y="400.00" type="priority"/>
+    <node id="E2_0" x="1200.00" y="0.00" type="priority"/>
+    <node id="E2_1" x="1200.00" y="200.00" type="priority"/>
+    <node id="E2_2" x="1200.00" y="400.00" type="priority"/>
+</nodes>

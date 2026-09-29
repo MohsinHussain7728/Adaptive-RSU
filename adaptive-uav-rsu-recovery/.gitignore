@@ -1,0 +1,76 @@
+# ------------------------------------------------------------------
+# Simulation outputs - regenerate with scripts/ (see README)
+# ------------------------------------------------------------------
+results/
+*-animation.xml
+flowmon*.xml
+routing_tables/
+*.pcap
+*.tr
+
+# ------------------------------------------------------------------
+# SUMO intermediates
+# The inputs (network/, trips, routes, .sumocfg, vtypes) and the converted
+# ns-2 traces mobility_*.tcl are kept: ns-3 needs them to run.
+# ------------------------------------------------------------------
+scratch/sumo-scenario/**/fcd_*.xml
+scratch/sumo-scenario/**/*.rou.alt.xml
+scratch/sumo-scenario/**/tripinfo*.xml
+scratch/sumo-scenario/**/summary*.xml
+scratch/sumo-scenario/**/*.sumo.log
+sumo_view_fcd.xml
+
+# ------------------------------------------------------------------
+# Build artifacts (ns-3 builds in its own tree; these guard local builds)
+# ------------------------------------------------------------------
+build/
+cmake-cache/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.out
+/core
+core.[0-9]*
+
+# ------------------------------------------------------------------
+# Python
+# ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+*.egg-info/
+
+# ------------------------------------------------------------------
+# Editors / IDEs
+# ------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ------------------------------------------------------------------
+# OS files
+# ------------------------------------------------------------------
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ------------------------------------------------------------------
+# Logs, temporary and backup files
+# ------------------------------------------------------------------
+*.log
+*.tmp
+*.bak
+*.orig

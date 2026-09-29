@@ -1,0 +1,25 @@
+<configuration>
+    <input>
+        <net-file value="../network/city.net.xml"/>
+        <route-files value="routes_5.rou.xml"/>
+        <additional-files value="../network/rsus.add.xml,../network/landmarks.poly.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="130.0"/>
+        <step-length value="0.1"/>
+    </time>
+    <processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+    <random_number>
+        <seed value="5"/>
+    </random_number>
+    <output>
+        <fcd-output value="fcd_5.xml"/>
+    </output>
+    <report>
+        <no-step-log value="true"/>
+        <no-warnings value="true"/>
+    </report>
+</configuration>
